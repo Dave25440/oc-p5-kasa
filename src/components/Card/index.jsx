@@ -3,7 +3,7 @@ import styles from "./Card.module.scss";
 
 const Card = ({ id, title, cover }) => {
     return (
-        <Link to={`/logement/${id}`} className={styles.cardblock}>
+        <Link to={`/oc-p5-kasa/logement/${id}`} className={styles.cardblock}>
             <article>
                 <img
                     src={cover}

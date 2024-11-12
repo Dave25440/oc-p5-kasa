@@ -18,7 +18,7 @@ const Housing = () => {
         const foundId = housingList.find((housing) => housing.id === id);
 
         if (!foundId) {
-            navigate("/erreur");
+            navigate("/oc-p5-kasa/erreur");
         }
     }, [id, navigate]);
 

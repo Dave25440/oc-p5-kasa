@@ -7,12 +7,12 @@ const Banner = () => {
     return (
         <div
             className={`${styles.bannerblock} ${
-                location.pathname === "/a-propos" && styles["bannerblock--alt"]
+                location.pathname === "/oc-p5-kasa/a-propos" && styles["bannerblock--alt"]
             }`}
         >
             <h1
                 className={`${styles.bannerblock__title} ${
-                    location.pathname === "/a-propos" &&
+                    location.pathname === "/oc-p5-kasa/a-propos" &&
                     styles["bannerblock__title--hidden"]
                 }`}
             >
