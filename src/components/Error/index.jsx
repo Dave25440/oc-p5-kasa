@@ -13,7 +13,7 @@ const Error = () => {
             <p className={styles.errorblock__text}>
                 Oups! La page que vous demandez n'existe pas.
             </p>
-            <Link to="/oc-p5-kasa" className={styles.errorblock__link}>
+            <Link to="/oc-p5-kasa/" className={styles.errorblock__link}>
                 Retourner sur la page d’accueil
             </Link>
         </section>

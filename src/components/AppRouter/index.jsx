@@ -7,12 +7,17 @@ import Error from "../Error";
 
 const AppRouter = () => {
     return (
-        <Router>
+        <Router
+            future={{ v7_startTransition: true, v7_relativeSplatPath: true }}
+        >
             <Layout>
                 <Routes>
-                    <Route path="/oc-p5-kasa" element={<Home />} />
+                    <Route path="/oc-p5-kasa/" element={<Home />} />
                     <Route path="/oc-p5-kasa/a-propos" element={<About />} />
-                    <Route path="/oc-p5-kasa/logement/:id" element={<Housing />} />
+                    <Route
+                        path="/oc-p5-kasa/logement/:id"
+                        element={<Housing />}
+                    />
                     <Route path="*" element={<Error />} />
                 </Routes>
             </Layout>

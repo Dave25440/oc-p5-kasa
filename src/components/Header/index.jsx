@@ -16,9 +16,9 @@ const Header = () => {
                 <ul className={styles.headblock__list}>
                     <li>
                         <Link
-                            to="/oc-p5-kasa"
+                            to="/oc-p5-kasa/"
                             className={`${styles.headblock__link} ${
-                                location.pathname === "/oc-p5-kasa" &&
+                                location.pathname === "/oc-p5-kasa/" &&
                                 styles["headblock__link--underline"]
                             }`}
                         >
